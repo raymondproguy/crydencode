@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 270" role="img" aria-labelledby="t">
+  <title id="t">A laptop showing code with a colourful path leading to a flag.</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7c5cff"/><stop offset="1" stop-color="#4b7bff"/></linearGradient>
+  </defs>
+  <ellipse cx="180" cy="240" rx="150" ry="18" fill="#7c5cff" opacity=".12"/>
+  <rect x="70" y="40" width="220" height="146" rx="12" fill="#141c38" stroke="#3a4680" stroke-width="3"/>
+  <rect x="82" y="52" width="196" height="122" rx="6" fill="#0b1127"/>
+  <circle cx="94" cy="64" r="3.5" fill="#ff6f7f"/><circle cx="106" cy="64" r="3.5" fill="#f4b84d"/><circle cx="118" cy="64" r="3.5" fill="#35d08f"/>
+  <g stroke-linecap="round" stroke-width="5">
+    <path d="M96 86h40" stroke="#c4a8ff"/><path d="M142 86h56" stroke="#8de0ff"/>
+    <path d="M108 102h64" stroke="#8fe3b0"/><path d="M178 102h30" stroke="#ffc680"/>
+    <path d="M108 118h30" stroke="#ffa8c5"/><path d="M144 118h78" stroke="#8de0ff"/>
+    <path d="M96 134h52" stroke="#c4a8ff"/><path d="M154 134h24" stroke="#8fe3b0"/>
+    <path d="M96 150h36" stroke="#6f7ca6"/>
+  </g>
+  <path d="M54 192h252l-14 20a10 10 0 0 1-8 4H76a10 10 0 0 1-8-4z" fill="#27325a"/>
+  <rect x="150" y="196" width="60" height="5" rx="2.5" fill="#3a4680"/>
+  <g transform="translate(262 120)">
+    <rect x="0" y="0" width="60" height="60" rx="14" fill="url(#g)" transform="rotate(8)"/>
+    <path d="M22 22l-9 9 9 9M38 22l9 9-9 9M33 18l-6 26" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" transform="rotate(8)"/>
+  </g>
+  <path d="M40 232c30-18 60-6 90-14" fill="none" stroke="#7c5cff" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 9"/>
+  <g transform="translate(36 160)"><path d="M0 0v52" stroke="#9ba8cf" stroke-width="3" stroke-linecap="round"/><path d="M2 2h30l-8 9 8 9H2z" fill="#35d08f"/></g>
+  <circle cx="320" cy="60" r="6" fill="#f4b84d" opacity=".9"/><circle cx="40" cy="70" r="4" fill="#5bb6ff" opacity=".9"/>
+</svg>

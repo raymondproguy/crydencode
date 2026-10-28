@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" role="img" aria-labelledby="t d">
+  <title id="t">Request and response between a browser and a server</title>
+  <desc id="d">A browser on the left sends a request to a server on the right. The server answers with HTML, CSS and JavaScript files.</desc>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#b9a9ff"/></marker></defs>
+  <rect width="640" height="280" rx="18" fill="#0f1630"/>
+  <g font-family="system-ui, -apple-system, Segoe UI, sans-serif" fill="#e9edfb">
+    <rect x="30" y="70" width="160" height="140" rx="14" fill="#141c38" stroke="#3a4680" stroke-width="2"/>
+    <text x="110" y="104" text-anchor="middle" font-size="18" font-weight="700">Browser</text>
+    <text x="110" y="128" text-anchor="middle" font-size="13" fill="#9ba8cf">(the client, on your device)</text>
+    <rect x="54" y="150" width="112" height="36" rx="8" fill="#0b1127" stroke="#27325a"/>
+    <text x="110" y="173" text-anchor="middle" font-size="13" fill="#8de0ff">example.com</text>
+
+    <rect x="450" y="70" width="160" height="140" rx="14" fill="#141c38" stroke="#3a4680" stroke-width="2"/>
+    <text x="530" y="104" text-anchor="middle" font-size="18" font-weight="700">Server</text>
+    <text x="530" y="128" text-anchor="middle" font-size="13" fill="#9ba8cf">(a computer with files)</text>
+    <g font-size="12" text-anchor="middle">
+      <rect x="470" y="146" width="56" height="26" rx="6" fill="#2a1c15"/><text x="498" y="163" fill="#ff9a68">HTML</text>
+      <rect x="534" y="146" width="56" height="26" rx="6" fill="#16233f"/><text x="562" y="163" fill="#7db0ff">CSS</text>
+      <rect x="500" y="178" width="60" height="26" rx="6" fill="#2a2512"/><text x="530" y="195" fill="#f3cc55">JS</text>
+    </g>
+
+    <path d="M196 110H444" stroke="#b9a9ff" stroke-width="3" fill="none" marker-end="url(#a)"/>
+    <text x="320" y="98" text-anchor="middle" font-size="14" font-weight="600">1. Request</text>
+    <text x="320" y="130" text-anchor="middle" font-size="12" fill="#9ba8cf">GET /index.html</text>
+
+    <path d="M444 176H196" stroke="#35d08f" stroke-width="3" fill="none" marker-end="url(#a)"/>
+    <text x="320" y="164" text-anchor="middle" font-size="14" font-weight="600">2. Response</text>
+    <text x="320" y="196" text-anchor="middle" font-size="12" fill="#9ba8cf">200 OK + the files</text>
+    <text x="320" y="250" text-anchor="middle" font-size="13" fill="#9ba8cf">3. The browser reads the files and draws the page.</text>
+  </g>
+</svg>

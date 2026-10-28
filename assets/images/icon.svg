@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>CrydenCode</title>
+  <rect width="512" height="512" rx="112" fill="#7c5cff"/>
+  <path d="M190 170l-86 86 86 86M322 170l86 86-86 86M284 140l-56 232" fill="none" stroke="#fff" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
